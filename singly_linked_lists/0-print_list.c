@@ -13,7 +13,7 @@ size_t print_list(const list_t *h)
         {
             printf("[0] (nil)");
         }
-    num = *h->str;
+    num = h->str;
     m = atoi(num);
     n = n + m;
     h = h->next;
