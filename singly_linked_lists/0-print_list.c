@@ -4,7 +4,7 @@
 
 size_t print_list(const list_t *h)
 {
-    char *num = h->str;
+    char *num;
     size_t n = 0;
     int m;
     while (h->next != NULL)
@@ -13,6 +13,7 @@ size_t print_list(const list_t *h)
         {
             printf("[0] (nil)");
         }
+    num = *h->str
     m = atoi(num);
     n = n + m;
     h = h->next;
