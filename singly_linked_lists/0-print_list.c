@@ -10,7 +10,7 @@ size_t print_list(const list_t *h)
         {
             printf("[0] (nil)");
         }
-    size_t n = n + h->str;
+    size_t n = atoi(n + h->str);
     h = h->next;
     }
 }
