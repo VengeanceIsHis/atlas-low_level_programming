@@ -10,6 +10,7 @@ size_t print_list(const list_t *h)
         {
             printf("[0] (nil)");
         }
+    printf("%s", h->str)
     h = h->next;
     }
 }
