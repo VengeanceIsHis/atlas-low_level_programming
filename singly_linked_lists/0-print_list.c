@@ -21,7 +21,7 @@ size_t print_list(const list_t *h)
     }
     return (n);
 }
-int str_to_int(schar *str)
+int str_to_int(char *str)
 {
     int result = 0;
     int sign = 1;
