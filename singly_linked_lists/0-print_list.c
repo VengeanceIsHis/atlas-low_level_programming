@@ -3,7 +3,7 @@
 
 size_t print_list(const list_t *h)
 {
-    char *str = h->str
+    char *str = h->str;
     size_t n = 0;
     int m;
     while (h->next != NULL)
