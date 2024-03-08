@@ -5,7 +5,7 @@
 
 size_t print_list(const list_t *h)
 {
-    char *num;
+    char *num =malloc(sizeof(char *));
     size_t n = 0;
     int m;
     while (h->next != NULL)
