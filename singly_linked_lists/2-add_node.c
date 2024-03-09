@@ -17,14 +17,14 @@ list_t *add_node(list_t **head, const char *str)
  new->str = added_string;
  new->next = (*head)->next;
  (*head)->next = new;
- return(&new);
+ return(*new);
 }
 char* copyString(const char *s1)
 {
 	char *s2 = "";
 	int i;
 
- for (i = 0; s1[i] != '\0'; ++i) 
+ for (i = 0; s1[i] != '\0'; ++i)
 	{
   s2[i] = s1[i];
  }
