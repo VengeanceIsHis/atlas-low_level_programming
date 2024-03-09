@@ -29,4 +29,5 @@ char* copyString(const char *s1)
 	{
   s2[i] = s1[i];
  }
+	return (s2);
 }
