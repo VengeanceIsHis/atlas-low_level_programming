@@ -1,5 +1,5 @@
-#IFNDEF "main_h";
-#DEFINE "main_h";
+#IFNDEF "mainh_h"
+#DEFINE "main_h"
 
 #include <stddef.h>
 /**
@@ -17,4 +17,4 @@ typedef struct list_s
     struct list_s *next;
 } list_t;
 size_t print_list(const list_t *h);
-#ENDIF;
+#ENDIF
