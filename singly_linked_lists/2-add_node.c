@@ -10,6 +10,7 @@ list_t *add_node(list_t **head, const char *str)
 	list_t *tmp;
  char *added_string = strdup(str);
 	unsigned int len;
+	unsigned int i = 0;
 
  new = malloc(sizeof(list_t));
  if (new == NULL)
@@ -22,9 +23,11 @@ list_t *add_node(list_t **head, const char *str)
 		len = len + 1;
 		tmp = tmp->next;
 	}
-	for (len = 0; added_string != '\0'; len++)
+	while (added_string[i] != '\0')
 	{
-		added_string[len] = len + 1;
+		len = i + 1;
+		added_string[i] = len;
+		i = i + 1;
 	}
  new->str = added_string;
 	new->len = len;
