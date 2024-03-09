@@ -17,7 +17,7 @@ list_t *add_node(list_t **head, const char *str)
  added_string = copyString(str);
  new->str = added_string;
  new->next = (*head);
- head->next = *new;
+ head->next = (*new);
  return(new);
 }
 char* copyString(const char *s)
