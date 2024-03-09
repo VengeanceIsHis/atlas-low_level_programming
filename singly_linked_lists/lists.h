@@ -1,4 +1,4 @@
-#ifndef "mainh_h"
+#ifndef "main_h"
 #define "main_h"
 #include <stddef.h>
 /**
