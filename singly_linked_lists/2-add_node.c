@@ -14,9 +14,17 @@ list_t *add_node(list_t **head, const char *str)
  {
   return (NULL);
  }
- added_string = strdup(str);
+ added_string = copyString(str);
  new->str = added_string;
  new->next = (*head);
  head->next = *new;
  return(new);
+}
+char* copyString(char s[])
+{
+ char* s2;
+ s2 = (char*)malloc(20);
+
+ strcpy(s2, s);
+ return (char*)s2;
 }
