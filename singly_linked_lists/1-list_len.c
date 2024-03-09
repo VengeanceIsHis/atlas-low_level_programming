@@ -6,15 +6,15 @@
 	*/
 size_t list_len(const list_t *h)
 {
-	size_t ele = 0;
+				size_t ele = 0;
 
-	while (h != NULL)
-	{
-				if (h->str)
+				while (h != NULL)
 				{
-								ele = ele + 1;
+								if (h->str)
+								{
+												ele = ele + 1;
+								}
+								h = h->next;
 				}
-				h = h->next;
-	}
-	return (ele);
+				return (ele);
 }
