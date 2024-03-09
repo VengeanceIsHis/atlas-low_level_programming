@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  *add_node - adds node to beginning of a linked list
  *@head: head is the beginning node of a linked list
