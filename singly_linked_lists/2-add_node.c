@@ -20,7 +20,7 @@ list_t *add_node(list_t **head, const char *str)
  head->next = *new;
  return(new);
 }
-char* copyString(char s[])
+char* copyString(const char *s)
 {
  char* s2;
  s2 = (char*)malloc(20);
