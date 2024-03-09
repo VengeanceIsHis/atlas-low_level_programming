@@ -1,6 +1,5 @@
 #IFNDEF "mainh_h"
 #DEFINE "main_h"
-
 #include <stddef.h>
 /**
  * struct list_s - singly linked list
