@@ -9,7 +9,7 @@ list_t *add_node(list_t **head, const char *str)
  list_t *new;
  new = malloc(sizeof(const char *));
  new->str = *str;
- new->next = head->next;
+ new->next = head;
  head->next = new;
  return(&new)
 }
