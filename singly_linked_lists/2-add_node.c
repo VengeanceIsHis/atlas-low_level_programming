@@ -6,7 +6,7 @@
  *Return: address of new node*/
 list_t *add_node(list_t **head, const char *str)
 {
- struct list_s *new;
+ list_t *new;
  char *added_string = "";
 
  new = malloc(sizeof(list_t));
