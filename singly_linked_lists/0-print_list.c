@@ -14,7 +14,7 @@ size_t print_list(const list_t *h)
         }
         else
         {
-            n + 1;
+            n = n + 1;
             h = h->next;
         }
     }
