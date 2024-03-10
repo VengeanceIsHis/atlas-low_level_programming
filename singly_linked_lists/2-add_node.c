@@ -10,7 +10,6 @@ list_t *add_node(list_t **head, const char *str)
 	list_t *tmp;
  char *added_string = strdup(str);
 	unsigned int len;
-	unsigned int i = 0;
 	char *temp_string = malloc(sizeof(char *));
 	temp_string = cpystr(added_string, temp_string);
 
