@@ -23,4 +23,5 @@ list_t *add_node(list_t **head, const char *str);
 char *cpystr(char *str, char *dest);
 unsigned int string_length(char *str);
 list_t *add_node_end(list_t **head, const char *str);
+void free_list(list_t *head);
 #endif
