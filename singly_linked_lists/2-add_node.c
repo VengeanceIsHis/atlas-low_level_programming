@@ -9,7 +9,7 @@ list_t *add_node(list_t **head, const char *str)
  list_t *new;
 	list_t *tmp;
  char *added_string = strdup(str);
-	unsigned int len;
+	unsigned int len = 0;
 	unsigned int i = 0;
 	char *temp_string = malloc(sizeof(char *));
 	temp_string = cpystr(added_string, temp_string);
@@ -24,11 +24,6 @@ list_t *add_node(list_t **head, const char *str)
 	{
 		len = len + 1;
 		tmp = tmp->next;
-	}
-	while (temp_string[i] != '\0')
-	{
-		len = i + 1;
-		i++;
 	}
  new->str = added_string;
 	new->len = len;
