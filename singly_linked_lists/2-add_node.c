@@ -20,8 +20,7 @@ list_t *add_node(list_t **head, const char *str)
  }
 	while (temp_string[i] != '\0')
 	{
-		len = ;
-		temp_string[i] = len;
+		len++;
 		i++;
 	}
  new->str = added_string;
