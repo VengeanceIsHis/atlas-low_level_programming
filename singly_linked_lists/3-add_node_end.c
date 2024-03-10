@@ -1,9 +1,9 @@
 #include "lists.h"
 /**
-*
-*
-*
-*
+*add_node_end - function that adds a node to the end of list
+*@head: first node in list
+*@str: input element of node to be entered.
+*Return: address of new node
 */
 list_t *add_node_end(list_t **head, const char *str)
 {
