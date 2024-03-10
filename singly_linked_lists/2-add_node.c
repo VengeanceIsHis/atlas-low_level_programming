@@ -40,7 +40,7 @@ list_t *add_node(list_t **head, const char *str)
 char *cpystr(char *str)
 {
 	int i;
-	char s2;
+	char *s2;
 	s2 = [];
 	for (i = 0; str != NULL; i++)
 	{
