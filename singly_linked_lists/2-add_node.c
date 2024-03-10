@@ -18,11 +18,7 @@ list_t *add_node(list_t **head, const char *str)
  {
   return (NULL);
  }
-	while (temp_string[i] != '\0')
-	{
-		len++;
-		i++;
-	}
+	len = string_length(temp_string);
  new->str = added_string;
 	new->len = len;
  new->next = (*head);
@@ -40,4 +36,14 @@ char *cpystr(char *str, char *dest)
 	}
 	dest[j] = '\0';
 	return dest;
+}
+unsigned int string_length(char *str)
+{
+ unsigned int length = 0;
+ while (*str != '\0')
+	{
+		length++;
+  str++;
+ }
+ return length;
 }
