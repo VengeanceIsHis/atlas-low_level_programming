@@ -12,6 +12,7 @@ list_t *add_node(list_t **head, const char *str)
 	unsigned int len;
 	unsigned int i = 0;
 	char *temp_string = added_string;
+	int i;
 
  new = malloc(sizeof(list_t));
  if (new == NULL)
@@ -39,9 +40,11 @@ list_t *add_node(list_t **head, const char *str)
 }
 char *cpystr(char *str)
 {
-	char s2 = [];
+	char s2;
+	s2 = [];
 	for (i = 0; str != NULL; i++)
 	{
 		s2[i] = str[i];
 	}
+	return s2;
 }
