@@ -27,7 +27,7 @@ list_t *add_node(list_t **head, const char *str)
 	while (temp_string[i] != '\0')
 	{
 		len = i + 1;
-		added_string[i] = len;
+		temp_string[i] = len;
 		i = i + 1;
 	}
 	i = 0;
@@ -36,4 +36,12 @@ list_t *add_node(list_t **head, const char *str)
  new->next = (*head);
  (*head) = new;
  return(new);
+}
+char *cpystr(char *str)
+{
+	char s2 = [];
+	for (i = 0; str != NULL; i++)
+	{
+		s2[i] = str[i];
+	}
 }
