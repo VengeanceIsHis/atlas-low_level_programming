@@ -17,7 +17,7 @@ unsigned int binary_to_uint(const char *b)
 		{
 			return (0);
 		}
-		else if (b[i] == 1)
+		if (b[i] == 1)
 		{
 		bn = changer;
 		changer = changer * changer;
