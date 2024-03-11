@@ -14,7 +14,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		(*head) = (*head)->next;
 	}
 	new->n = n;
-	()
 	(*head)->next = tmp;
 	new->next = tmp;
 	(*head)->next = new;
