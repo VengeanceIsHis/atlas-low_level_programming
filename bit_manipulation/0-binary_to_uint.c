@@ -5,7 +5,7 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int i = 0, bn = 0;
-	unsigned int len = string_length(b) - 1;
+	unsigned int len = string_length(b);
 	unsigned int changer = 1;
 
 	if (b == NULL)
