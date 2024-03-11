@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-*free_listint - function that deletes an entire linked list
+*free_listint2 - function that deletes an entire linked list
 *@head: pointer to the first node
 *Return: void
 */
