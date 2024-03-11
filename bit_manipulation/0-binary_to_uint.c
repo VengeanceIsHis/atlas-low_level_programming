@@ -32,7 +32,6 @@ int string_length(const char *str)
 {
 	int length = 0;
 
- // Iterate over the characters of the string until null terminator is encountered
  while (str[length] != '\0')
 	{
   length++;
