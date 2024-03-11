@@ -1,0 +1,30 @@
+#include "lists.h"
+/**
+*
+*
+*/
+int delete_nodeint_at_index(listint_t **head, unsigned int index)
+{
+	listint_t *tmp = *head;
+
+	if (idx == 0)
+	{
+		(*head) = (*head)->next
+		free(tmp)
+		return (1);
+	}
+
+	for (i = 0; head && i < idx; i++)
+	{
+	if (i == idx)
+	{
+	tmp = *head;
+	(*head) = (*head)->next;
+	free(tmp);
+	return (1);
+	}
+	else
+	(*head) = (*head)->next;
+	}
+	return (-1);
+}
