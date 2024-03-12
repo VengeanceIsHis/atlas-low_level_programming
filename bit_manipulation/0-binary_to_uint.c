@@ -35,7 +35,6 @@ unsigned int binary_to_uint(const char *b)
 			decimal++;
 			second_changer--;
 			}
-
 		}
 		changer = changer * changer;
 		len--;
