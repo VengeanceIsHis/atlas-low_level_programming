@@ -14,11 +14,9 @@ unsigned int binary_to_uint(const char *b)
 
  while (c[len] != '\0')
 	{
-		printf("length okay?");
   len++;
 	}
-	i = len;
-	while (b[i] != '\0')
+	while (b[len] != '\0')
 	{
 		printf("if or while");
 		if (b[i] != '0' && b[i] != '1')
@@ -38,7 +36,7 @@ unsigned int binary_to_uint(const char *b)
 
 		}
 		changer = changer * changer;
-		i--;
+		len;
 	}
 	printf("not going thru test");
 	return decimal;
