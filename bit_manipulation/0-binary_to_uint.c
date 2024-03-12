@@ -36,6 +36,7 @@ unsigned int binary_to_uint(const char *b)
 			second_changer--;
 			}
 		}
+		printf("REACHING END OF LOOP");
 		changer = changer * changer;
 		len--;
 	}
