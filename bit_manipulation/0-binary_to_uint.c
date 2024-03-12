@@ -30,6 +30,7 @@ unsigned int binary_to_uint(const char *b)
 			second_changer = changer;
 			while (second_changer > 0)
 			{
+				printf("if or while")
 			decimal++;
 			second_changer--;
 			}
