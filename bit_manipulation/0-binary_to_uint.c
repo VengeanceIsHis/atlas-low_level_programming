@@ -19,12 +19,12 @@ unsigned int binary_to_uint(const char *b)
 	printf("%d", len);
 	while (len != 0)
 	{
-		if (c[len] != 0 && c[len] != 0)
+		if (c[len] != '0' && c[len] != '0')
 		{
 			printf("Reaching null character zone");
 			return (0);
 		}
-		if (c[len] == 1)
+		if (c[len] == '1')
 		{
 			printf("test");
 			second_changer = changer;
