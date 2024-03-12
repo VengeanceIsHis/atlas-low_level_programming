@@ -24,7 +24,6 @@ unsigned int binary_to_uint(const char *b)
 		changer = changer * changer;
 		i--;
 	}
-	}
 	return bn;
 }
 int string_length(const char *str)
