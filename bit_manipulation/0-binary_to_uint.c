@@ -24,7 +24,7 @@ unsigned int binary_to_uint(const char *b)
 			printf("test");
 			return (0);
 		}
-		if (b[len] == '1')
+		if (b[len] == 1)
 		{
 			printf("test");
 			second_changer = changer;
