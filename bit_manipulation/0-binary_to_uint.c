@@ -21,6 +21,7 @@ unsigned int binary_to_uint(const char *b)
 		printf("if or while");
 		if (b[len] != '0' && b[len] != '1')
 		{
+			printf("test");
 			return (0);
 		}
 		if (b[len] == '1')
