@@ -14,6 +14,7 @@ unsigned int binary_to_uint(const char *b)
 
  while (c[len] != '\0')
 	{
+		printf("length okay?")
   len++;
 	}
 	i = len;
