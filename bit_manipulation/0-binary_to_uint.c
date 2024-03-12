@@ -2,6 +2,7 @@
 /**
 *
 */
+int string_length(const char *str);
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int i = 0, bn = 0;
