@@ -24,7 +24,7 @@ unsigned int binary_to_uint(const char *b)
 			printf("Reaching null character zone");
 			return (0);
 		}
-		if (c[len] == '1')
+		if (c[len] == 49)
 		{
 			printf("test");
 			second_changer = changer;
