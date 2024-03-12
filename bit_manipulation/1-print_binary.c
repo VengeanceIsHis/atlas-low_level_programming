@@ -3,7 +3,7 @@
 *_pow - exponential function
 *@base: base
 *@power: power
-*Return:
+*Return: exponent output
 */
 unsigned long int _pow(unsigned int base, unsigned int power)
 {
