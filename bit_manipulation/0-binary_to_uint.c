@@ -19,6 +19,7 @@ unsigned int binary_to_uint(const char *b)
 	len--;
 	while (len != 0)
 	{
+		printf("REACHING THE LOOP");
 		if (c[len] != '1' && c[len] != '0')
 		{
 			printf("Reaching null character zone");
