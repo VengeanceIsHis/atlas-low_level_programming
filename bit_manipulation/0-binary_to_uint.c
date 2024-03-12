@@ -27,7 +27,7 @@ unsigned int binary_to_uint(const char *b)
 				printf("if or while");
 			decimal++;
 			second_changer--;
-			changer = changer * changer
+			changer *=2;
 			}
 		}
 		if (c[len] != '1' && c[len] != '0')
