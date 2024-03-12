@@ -25,7 +25,7 @@ unsigned int binary_to_uint(const char *b)
 		if (b[i] == '1')
 		{
 			second_changer = changer;
-			while (second_changer >= 0)
+			while (second_changer > 0)
 			{
 			decimal = decimal + 1;
 			second_changer--;
