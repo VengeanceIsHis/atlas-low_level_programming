@@ -16,6 +16,7 @@ unsigned int binary_to_uint(const char *b)
 	{
   len++;
 	}
+	len--;
 	while (len != 0)
 	{
 		if (!c[len])
