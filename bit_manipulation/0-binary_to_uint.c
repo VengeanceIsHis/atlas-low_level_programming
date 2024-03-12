@@ -18,14 +18,6 @@ unsigned int binary_to_uint(const char *b)
 	}
 	while (len != 0)
 	{
-		printf("%d", len);
-		printf("REACHING THE LOOP");
-		if (c[len] != '1' && c[len] != '0')
-		{
-			printf("Reaching null character zone");
-			return (0);
-		}
-		printf("next test");
 		if (c[len] == '1')
 		{
 			printf("test");
@@ -35,10 +27,17 @@ unsigned int binary_to_uint(const char *b)
 				printf("if or while");
 			decimal++;
 			second_changer--;
+			changer = changer * changer
 			}
 		}
+		if (c[len] != '1' && c[len] != '0')
+		{
+			printf("Reaching null character zone");
+			return (0);
+		}
+		printf("next test");
 		printf("REACHING END OF LOOP");
-		changer = changer * changer;
+		changer *= 2;
 		len--;
 	}
 	printf("next test for loop");
