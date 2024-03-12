@@ -23,6 +23,10 @@ unsigned int binary_to_uint(const char *b)
 	{
  	decimal += changer;
  }
+	else if (c[len] == '1' || c[len] == '0')
+	{
+		return (0);
+	}
  changer *= 2;
  len--;
  }
