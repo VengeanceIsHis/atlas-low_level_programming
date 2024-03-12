@@ -3,7 +3,7 @@
 /**
  * get_bit - prog returns the value of a bit at a given index.
  * @n: number to check bits in
- * @index: index at which to check bit
+ * @index: index at which to check bi
  *
  * Return: value of the bit, or -1 if there is an error
  */
