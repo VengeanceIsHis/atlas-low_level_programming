@@ -19,12 +19,12 @@ unsigned int binary_to_uint(const char *b)
 	while (b[len] != '\0')
 	{
 		printf("if or while");
-		if (b[i] != '0' && b[i] != '1')
+		if (b[len] != '0' && b[len] != '1')
 		{
 			printf("test");
 			return (0);
 		}
-		if (b[i] == '1')
+		if (b[len] == '1')
 		{
 			printf("test");
 			second_changer = changer;
