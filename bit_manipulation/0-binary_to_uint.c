@@ -20,7 +20,7 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (b[i] != '0' && b[i] != '1')
 		{
-			printf("test")
+			printf("test");
 			return (0);
 		}
 		if (b[i] == '1')
