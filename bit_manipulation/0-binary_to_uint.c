@@ -4,6 +4,7 @@
 */
 unsigned int binary_to_uint(const char *b)
 {
+	const char *c = b;
 	unsigned int i = 0, decimal = 0;
 	unsigned int len = 0;
 	unsigned int changer = 1, second_changer;
@@ -11,7 +12,7 @@ unsigned int binary_to_uint(const char *b)
 	if (b == NULL)
 		return (0);
 
- while (b[len] != '\0')
+ while (c[len] != '\0')
 	{
   len++;
 	}
