@@ -19,7 +19,7 @@ unsigned int binary_to_uint(const char *b)
 	while (len != 0)
 	{
 		printf("if or while");
-		if (b[len] != '0' && b[len] != '1')
+		if (b[len] != 0 && b[len] != 0)
 		{
 			printf("test");
 			return (0);
