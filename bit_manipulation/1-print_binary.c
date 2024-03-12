@@ -1,6 +1,7 @@
 #include "main.h"
 /**
-*
+*_pow - exponential function
+*@base: 
 */
 unsigned long int _pow(unsigned int base, unsigned int power)
 {
