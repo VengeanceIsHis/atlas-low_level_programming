@@ -21,10 +21,12 @@ unsigned int binary_to_uint(const char *b)
 		{
 		bn += changer;
 		changer = changer * changer;
-		i--;
 		}
 		else
-			continue;
+		{
+			changer = changer * changer;
+		}
+		i--;
 	}
 	return bn;
 }
