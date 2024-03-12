@@ -32,5 +32,5 @@ unsigned int binary_to_uint(const char *b)
 	changer *= 2;
 	len--;
 	}
-	return decimal;
+	return (decimal);
 }
