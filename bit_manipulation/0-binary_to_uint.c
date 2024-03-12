@@ -1,6 +1,8 @@
 #include "main.h"
 /**
-*
+*binary_to_uint - function changes from binary to decimal
+*@b: binary input to be changed
+*Return: decimal equivalent in unsigned int
 */
 unsigned int binary_to_uint(const char *b)
 {
@@ -12,23 +14,23 @@ unsigned int binary_to_uint(const char *b)
 	if (b == NULL)
 		return (0);
 
- while (c[len] != '\0')
+	while (c[len] != '\0')
 	{
-  len++;
+		len++;
 	}
 	len--;
 	while (len >= 0)
 	{
- if (c[len] == '1')
+	if (c[len] == '1')
 	{
- 	decimal += changer;
- }
+		decimal += changer;
+	}
 	else if (c[len] != '1' && c[len] != '0')
 	{
 		return (0);
 	}
- changer *= 2;
- len--;
- }
+	changer *= 2;
+	len--;
+	}
 	return decimal;
 }
