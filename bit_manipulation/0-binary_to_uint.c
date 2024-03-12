@@ -24,7 +24,7 @@ unsigned int binary_to_uint(const char *b)
 		}
 		if (b[i] == '1')
 		{
-			while (charger >= 0)
+			while (changer >= 0)
 			{
 			decimal = decimal + 1;
 			}
