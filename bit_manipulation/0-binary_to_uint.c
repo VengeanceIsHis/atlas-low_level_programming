@@ -19,6 +19,7 @@ unsigned int binary_to_uint(const char *b)
 	len--;
 	while (len != 0)
 	{
+		printf("%d", len);
 		printf("REACHING THE LOOP");
 		if (c[len] != '1' && c[len] != '0')
 		{
@@ -41,5 +42,6 @@ unsigned int binary_to_uint(const char *b)
 		changer = changer * changer;
 		len--;
 	}
+	printf("next test for loop");
 	return decimal;
 }
