@@ -5,7 +5,7 @@
 unsigned int binary_to_uint(const char *b)
 {
 	const char *c = b;
-	unsigned int i, decimal = 0;
+	unsigned int decimal = 0;
 	unsigned int len = 0;
 	unsigned int changer = 1, second_changer;
 
