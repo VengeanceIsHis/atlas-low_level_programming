@@ -21,7 +21,6 @@ unsigned int binary_to_uint(const char *b)
 		printf("if or while");
 		if (b[len] != '0' && b[len] != '1')
 		{
-			printf("test");
 			return (0);
 		}
 		if (b[len] == '1')
@@ -30,7 +29,7 @@ unsigned int binary_to_uint(const char *b)
 			second_changer = changer;
 			while (second_changer > 0)
 			{
-			decimal = decimal + 1;
+			decimal++;
 			second_changer--;
 			}
 
