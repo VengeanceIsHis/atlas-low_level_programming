@@ -28,7 +28,7 @@ unsigned int binary_to_uint(const char *b)
 			while (second_changer >= 0)
 			{
 			decimal = decimal + 1;
-			second_charger--;
+			second_changer--;
 			}
 
 		}
