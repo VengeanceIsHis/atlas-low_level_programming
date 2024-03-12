@@ -2,7 +2,6 @@
 /**
 *
 */
-int string_length(const char *str);
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int i = 0, bn = 0;
@@ -12,6 +11,10 @@ unsigned int binary_to_uint(const char *b)
 	if (b == NULL)
 		return (0);
 
+ while (b[len] != '\0')
+	{
+  len++;
+	}
 	i = len;
 	while (b[i] != '\0')
 	{
@@ -27,15 +30,4 @@ unsigned int binary_to_uint(const char *b)
 		i--;
 	}
 	return bn;
-}
-int string_length(const char *str)
-{
-	int length = 0;
-
- while (str[length] != '\0')
-	{
-  length++;
- }
-
- return length;
 }
