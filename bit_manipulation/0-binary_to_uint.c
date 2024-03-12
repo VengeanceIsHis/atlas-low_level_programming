@@ -37,5 +37,6 @@ unsigned int binary_to_uint(const char *b)
 		changer = changer * changer;
 		i--;
 	}
+	printf("not going thru test")
 	return decimal;
 }
