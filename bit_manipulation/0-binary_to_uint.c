@@ -20,13 +20,10 @@ unsigned int binary_to_uint(const char *b)
 		if (b[i] == '1')
 		{
 		bn += changer;
+		}
 		changer = changer * changer;
-		}
-		else
-		{
-			changer = changer * changer;
-		}
 		i--;
+	}
 	}
 	return bn;
 }
